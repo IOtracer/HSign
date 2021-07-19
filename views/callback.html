@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Hallo {{username}}</h1>
+        <p>please sign the document</p>
+        <button onclick="sign()" class="btn btn-primary">sign</button>
+      </div>
+    </div>
+    <script>
+      import HelloSign from "hellosign-embedded";
+      const client = new HelloSign();
+      client.open(signUrl, {
+        clientId: "b6b8e7deaf8f0b95c029dca049356d4a2cf9710a",
+      });
+    </script>
+  </body>
+</html>

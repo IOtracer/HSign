@@ -1,0 +1,20 @@
+{
+  "name": "hellosign",
+  "version": "1.0.0",
+  "description": "Signature APP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "hellosign-embedded": "^2.10.0",
+    "hellosign-sdk": "^1.6.1",
+    "ngrok": "^4.0.1"
+  }
+}
